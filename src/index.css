@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Hind Siliguri", sans-serif;
+}
+body {
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+main {
+  margin-bottom: 4rem; /* Adjust as needed */
+}
+
+
+
+/* Tailwind CSS classes */
+.toggle:checked {
+  @apply bg-red-500 border-red-400;
+   /* Ensure no overlapping background */
+}
+
+.toggle:not(:checked) {
+  @apply bg-green-500 border-green-400;/* Ensure clear unchecked state */
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+}
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+  .swiper {
+    height: auto; /* Adjust swiper height for tablets */
+  }
+
+  .swiper-slide {
+    font-size: 16px; /* Slightly smaller text */
+  }
+
+  .swiper-slide img {
+    height: auto; /* Maintain image aspect ratio */
+  }
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 420px) {
+  .swiper {
+    height: 400px; /* Adjust swiper height for mobile */
+  }
+
+  .swiper-slide {
+    font-size: 14px; /* Smaller text for better readability on small screens */
+  }
+
+  .swiper-slide img {
+    height: 100%; /* Ensure proper scaling for mobile screens */
+    object-fit: contain; /* Avoid cropping on smaller screens */
+  }
+}
+
+/*  footer */
+
+/* Ensure the footer adapts to smaller screens */
+footer {
+  position: relative; /* Avoid fixed positioning */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+
+footer .nav {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically on smaller screens */
+  align-items: center;
+  gap: 1rem; /* Reduce gap for smaller devices */
+}
+
+footer img {
+  max-width: 100%; /* Ensure images scale responsively */
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem 0.5rem;
+  }
+
+  footer .nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+
