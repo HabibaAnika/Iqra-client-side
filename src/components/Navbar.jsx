@@ -45,7 +45,7 @@ function Navbar() {
       ],
     },
     { link: "/contact", label: language === "en" ? "Contact" : "যোগাযোগ" },
-    { link: "/blog", label: language === "en" ? "Blog" : "ব্লক" },
+    { link: "/blog", label: language === "en" ? "Blog" : "ব্লগ" }, 
   ];
 
   const handleSearch = (e) => {
@@ -131,8 +131,8 @@ function Navbar() {
             </div>
 
             {/* Website Name */}
-            <div className="flex items-center">
-              <img className="w-24" src="https://i.ibb.co/YbLDnmN/Artboard-4-4x.png" alt="IQRA Logo" />
+            <div className="flex items-center gap-2">
+              <img className="w-16" src="https://i.ibb.co/YbLDnmN/Artboard-4-4x.png" alt="IQRA Logo" />
               <div className="lg:flex flex-col hidden items-start relative left-[-20px] top-1">
                 <Link to="/" className="font-black text-xl tracking-widest">
                   {language === "en" ? "IQRA" : "ইক্বরা"}

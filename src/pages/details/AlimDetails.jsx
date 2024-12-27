@@ -12,7 +12,7 @@ function AlimDetails() {
       ></div>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#148d65cb] bg-opacity-90"></div>
+      <div className="absolute inset-0 bg-[#148d6573] bg-opacity-40"></div>
 
       {/* Content Area */}
       <div className="relative z-10 container mx-auto mt-40">
@@ -64,16 +64,16 @@ function AlimDetails() {
             <>
               কোর্সের সময়সীমা: ৫-৬ বছর <br />
               ক্লাসের সময়: সপ্তাহে ৬ দিন <br />
-              শিক্ষার মাধ্যম: অনলাইন এবং অন-ক্যাম্পাস উভয়ই <br />
+              শিক্ষার মাধ্যম: অনলাইন , জুম বা মিট বা হোয়াটস অ্যাপ<br />
               ক্লাস পরিচালনায়: দক্ষ আলেম এবং ক্বারী <br />
-              সেশন শুরু: জানুয়ারি ২০২৫ <br />
+              সেশন শুরু: জানুয়ারি ২০২৫ <br /> 
               ভর্তির শেষ তারিখ: ডিসেম্বর ৩১, ২০২৪
             </>
           ) : (
             <>
               Duration: 5-6 years <br />
               Class Schedule: 6 days a week <br />
-              Mode of Learning: Online and On-Campus <br />
+              Mode of Learning: Online by Zoom or Meet or Whatsapp<br />
               Conducted by: Qualified Scholars and Qaris <br />
               Session Start: January 2025 <br />
               Last Date of Admission: December 31, 2024

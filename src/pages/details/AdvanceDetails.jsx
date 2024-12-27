@@ -18,7 +18,7 @@ function AdvanceDetails() {
       {/* Content Area */}
       <div className="relative z-10 container mx-auto mt-40">
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-          {language === "en" ? "Advanced Quran Course Details" : "উচ্চতর কোরআন কোর্সের বিস্তারিত"}
+          {language === "en" ? "Advanced Quran Course Details" : "উচ্চতর কোরআন বা নাযেরা কোর্সের বিস্তারিত"}
         </h1>
 
         <p className="bg-[#bbe0e459] w-auto p-4 rounded-sm text-sm mb-4">
@@ -37,15 +37,17 @@ function AdvanceDetails() {
               <li>Perfecting Quranic recitation (Qirat).</li>
               <li>Memorization of Juz Amma and selected Surahs.</li>
               <li>Correcting recitation mistakes.</li>
-              <li>Understanding meanings of key Surahs and verses.</li>
+              <li>Important masala and masnoon prayer</li>
+              <li>99 names of Allah Ta&#39;ala</li>
             </>
           ) : (
             <>
-              <li>উন্নত তাজবীদের নিয়ম।</li>
+              <li>সিফাত , উন্নত তাজবীদের নিয়ম।</li>
               <li>কোরআন তিলাওয়াতের দক্ষতা উন্নত করা (ক্বিরাত)।</li>
               <li>আমপারা এবং নির্বাচিত সূরা মুখস্থ করা।</li>
               <li>তিলাওয়াতের ভুল সংশোধন করা।</li>
-              <li>গুরুত্বপূর্ণ সূরা এবং আয়াতের অর্থ বোঝা।</li>
+              <li>গুরুত্বপূর্ণ মাসায়েল ও মাসনূন দোয়া</li>
+              <li>আল্লাহ তায়ালার ৯৯ নাম</li>
             </>
           )}
         </ul>
@@ -55,30 +57,36 @@ function AdvanceDetails() {
         </h2>
         <p className="text-sm mb-4 bg-[#bbe0e459] p-4 rounded-sm">
           {language === "en"
-            ? "This course runs for 6 months, with 5 classes per week. Students will get personalized guidance to perfect their recitation and Tajweed. The course fee is 1499 per month."
+            ? "This course runs for 6 months, with 6 classes per week. Students will get personalized guidance to perfect their recitation and Tajweed. The course fee is 1499 per month."
             : "এই কোর্সটি ৬ মাসের জন্য পরিচালিত হয়, সপ্তাহে ৫ দিন ক্লাস। শিক্ষার্থীদের তিলাওয়াত এবং তাজবীদ নিখুঁত করার জন্য ব্যক্তিগত দিকনির্দেশনা প্রদান করা হয়। কোর্স ফি প্রতি মাসে ১৪৯৯।"}
           <p>
             {language === "bn" ? (
               <>
                 কোর্সের সময়সীমা: ৬ মাস <br />
-                ক্লাসের সময়: সপ্তাহে ৫ দিন <br />
+                ক্লাসের সময়: সপ্তাহে ৬ দিন <br /> 
                 উন্নত তাজবীদ এবং ক্বিরাত শেখানো হবে। <br />
-                মহিলা শিক্ষার্থীদের জন্য আলাদা ব্যাচ। <br />
-                দক্ষ শিক্ষক ও ক্বারীদের তত্ত্বাবধানে অনলাইন ক্লাস। <br />
-                ক্লাসের মাধ্যম: Zoom, WhatsApp, Skype। <br />
-                ভর্তির শেষ তারিখ: জানুয়ারি ১ তারিখ পর্যন্ত <br />
-                ক্লাস শুরু: ২০২৫ ইং
+                পুরুষ/মহিলা ও ছোট বাচ্চা সবার জন্য আলাদা ব্যাচ আছে। <br />
+                মহিলা শিক্ষার্থীদের ক্লাস মহিলা শিক্ষিকা নিবেন। <br />
+                এছাড়াও হোয়াটসঅ্যাপ এর মাধ্যমে সার্বক্ষণিক সহযোগিতা প্রদান করা। <br />
+                ঘরে বসেই প্রশিক্ষণপ্রাপ্ত অভিজ্ঞ উস্তাজ, হাফিজ ক্বারী এবং আলেমদের দ্বারা অনলাইনে কুরআন তাজবীদ শিখুন।{" "}
+                <br />
+                ক্লাসের মাধ্যম: জুম, মিট, হোয়াটসঅ্যাপ ,স্কাইপি লাইভ ক্লাস। (রেকর্ড ক্লাস দেয়া হয়)<br />
+                ডেমো ক্লাস করার পর আপনি ভর্তি হতে পারবেন <br />
+                সীমিত কোটায় ভর্তি চলছে।
               </>
             ) : (
               <>
                 Course Duration: 6 months <br />
-                Class Schedule: 5 days a week <br />
+                Class Schedule: 6 days a week <br />
                 Advanced Tajweed and Qirat training will be provided. <br />
-                Separate batches for female students. <br />
-                Online classes under the guidance of skilled teachers and Qaris. <br />
-                Class Medium: Zoom, WhatsApp, Skype. <br />
-                Last Date of Admission: Up to January 1st <br />
-                Classes Start: 2025
+                There are separate batches for men/women and children. <br />
+                Class of female students will be taken by female teacher. <br />
+                Also providing round the clock support through WhatsApp. <br />
+                Learn Quran Tajweed online by trained experienced Ustaz, Hafiz Qari and Scholars from home. <br />
+                Class Medium: Zoom , Google Meet, WhatsApp, Skype Live Class. (Recorded video is provided){" "}
+                <br />
+                After demo class you can get admission <br />
+                Admission is going on in limited quota.
               </>
             )}
           </p>

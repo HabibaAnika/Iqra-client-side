@@ -8,11 +8,11 @@ function AmparaDetails() {
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/3.jpg')" }} // Replace with the correct image path
+        style={{ backgroundImage: "url('/4.jpg')" }} // Replace with the correct image path
       ></div>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-sky-800 bg-opacity-40"></div>
+      <div className="absolute inset-0 bg-white bg-opacity-25"></div>
 
       {/* Content Area */}
       <div className="relative z-10 container mx-auto mt-40">
@@ -44,7 +44,7 @@ function AmparaDetails() {
               <li>সঠিক তাজবীদ এবং উচ্চারণ শেখানো।</li>
               <li>সাবলীল তিলাওয়াতের জন্য দৈনিক অনুশীলন।</li>
               <li>ছোট সূরার অর্থ বোঝার অনুশীলন।</li>
-              <li>মোট কোরআন মুখস্থ করার দক্ষতা উন্নত করা।</li>
+              <li>সম্পূর্ণ কোরআন মুখস্থ করার দক্ষতা উন্নত করা।</li>
             </>
           )}
         </ul>
@@ -54,23 +54,25 @@ function AmparaDetails() {
         </h2>
         <p className="mb-4 bg-[#bbe0e459] p-4 rounded-sm text-sm">
           {language === "en"
-            ? "This course runs for 4 months, with 5 classes per week. Students will be taught in small groups to ensure personalized guidance. The course fee is 999 per month."
-            : "এই কোর্সটি ৪ মাস ধরে পরিচালিত হয়, সপ্তাহে ৫ দিন ক্লাস। শিক্ষার্থীদের ছোট ব্যাচে পড়ানো হয় যাতে ব্যক্তিগত দিকনির্দেশনা নিশ্চিত করা যায়। কোর্স ফি প্রতি মাসে ৯৯৯।"}
-          <p>
+            ? "This course runs for  4/6 months, with 5 classes per week. Students will be taught in small groups to ensure personalized guidance. The course fee is 999 per month."
+            : "এই কোর্সটি ৪/৬ মাস ধরে পরিচালিত হয়, সপ্তাহে ৬ দিন ক্লাস। শিক্ষার্থীদের ছোট ব্যাচে পড়ানো হয় যাতে ব্যক্তিগত দিকনির্দেশনা নিশ্চিত করা যায়। কোর্স ফি প্রতি মাসে ৯৯৯।"}
+          <p> 
             {language === "bn" ? (
               <>
-                কোর্সের সময়সীমা: ৪ মাস <br />
-                ক্লাসের সময়: সপ্তাহে ৫ দিন <br />
+                কোর্সের সময়সীমা: ৪/৬ মাস <br />
+                ক্লাসের সময়: সপ্তাহে ৬ দিন <br />
                 আলাদা ব্যাচ: বাচ্চা, মহিলা এবং পুরুষদের জন্য। <br />
-                মাধ্যম: Zoom, WhatsApp, Skype। <br />
-                দক্ষ শিক্ষক এবং হাফিজ ক্বারীদের দ্বারা শেখানো হয়। <br />
-                ভর্তির শেষ তারিখ: জানুয়ারি ১ <br />
-                ক্লাস শুরু: ২০২৫ ইং
-              </>
+                এছাড়াও হোয়াটসঅ্যাপ এর মাধ্যমে সার্বক্ষণিক সহযোগিতা প্রদান করা। <br />
+                ঘরে বসেই প্রশিক্ষণপ্রাপ্ত অভিজ্ঞ উস্তাজ, হাফিজ ক্বারী এবং আলেমদের দ্বারা অনলাইনে কুরআন তাজবীদ শিখুন।{" "}
+                <br />
+                ক্লাসের মাধ্যম: জুম, মিট, হোয়াটসঅ্যাপ ,স্কাইপি লাইভ ক্লাস। (রেকর্ড ক্লাস দেয়া হয়)<br />
+                ডেমো ক্লাস করার পর আপনি ভর্তি হতে পারবেন <br />
+                সীমিত কোটায় ভর্তি চলছে।
+              </> 
             ) : (
               <>
-                Course Duration: 4 months <br />
-                Class Schedule: 5 days a week <br />
+                Course Duration: 4/6 months <br />
+                Class Schedule: 6 days a week <br />
                 Separate batches for kids, women, and men. <br />
                 Medium: Zoom, WhatsApp, Skype. <br />
                 Classes are conducted by skilled teachers and Hafiz Qaris. <br />

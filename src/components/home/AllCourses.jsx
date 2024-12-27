@@ -209,7 +209,7 @@ function AllCourses() {
                     : course.courseName === "Basic Quran Course"
                     ? "প্রাথমিক কোরআন শিক্ষা কোর্স"
                     : course.courseName === "Advance Quran Course (Nazera)"
-                    ? "উন্নত কোরআন কোর্স (নাজেরা)"
+                    ? "উচ্চতর কোরআন কোর্স (নাযেরা)"
                     : course.courseName === "30th Part Memorizing Course (Ampara Hifz)"
                     ? "৩০তম পারা মুখস্থ করার কোর্স (আমপারা হিফজ)"
                     : course.courseName === "Memorizing Al Quran (Hifz)"

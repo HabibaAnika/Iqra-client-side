@@ -66,16 +66,9 @@ function BasicDetails() {
                 এছাড়াও হোয়াটসঅ্যাপ এর মাধ্যমে সার্বক্ষণিক সহযোগিতা প্রদান করা। <br />
                 ঘরে বসেই প্রশিক্ষণপ্রাপ্ত অভিজ্ঞ উস্তাজ, হাফিজ ক্বারী এবং আলেমদের দ্বারা অনলাইনে কুরআন তাজবীদ শিখুন।{" "}
                 <br />
-                ক্লাসের মাধ্যম: Zoom , হোয়াটসঅ্যাপ ,স্কাইপিলাইভ ক্লাস। (কোনো শিক্ষার্থীর ক্লাস মিস হলে রেকর্ড ভিডিও
-                দেওয়া হয়) <br />
+                ক্লাসের মাধ্যম: জুম, মিট, হোয়াটসঅ্যাপ ,স্কাইপি লাইভ ক্লাস। (রেকর্ড ক্লাস দেয়া হয়)<br />
                 ডেমো ক্লাস করার পর আপনি ভর্তি হতে পারবেন <br />
-                চলমান সেশন: জানুয়ারি - এপ্রিল
-                <br />
-                ভর্তির শেষ তারিখ: জানুয়ারি ১ তারিখ পর্যন্ত
-                <br />
                 সীমিত কোটায় ভর্তি চলছে।
-                <br />
-                ক্লাস শুরু: ২০২৫ ইং
               </>
             ) : (
               <>
@@ -85,13 +78,9 @@ function BasicDetails() {
                 Class of female students will be taken by female teacher. <br />
                 Also providing round the clock support through WhatsApp. <br />
                 Learn Quran Tajweed online by trained experienced Ustaz, Hafiz Qari and Scholars from home. <br />
-                Class Medium: Zoom, WhatsApp, Skype Live Class. (Recorded video is provided if a student misses a class){" "}
+                Class Medium: Zoom , Google Meet, WhatsApp, Skype Live Class. (Recorded video is provided){" "}
                 <br />
                 After demo class you can get admission <br />
-                Ongoing Session: January - April <br />
-                Last Date of Admission: Up to January
-                <br />
-                Classes Start: 2025
               </>
             )}
           </p>
