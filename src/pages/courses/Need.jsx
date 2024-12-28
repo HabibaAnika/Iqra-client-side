@@ -6,7 +6,7 @@ function Need() {
     <div className="mt-40 mb-32">
       <div className="max-w-sm bg-[#dfe4ea] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto h-[676px] transform transition-transform duration-300 hover:scale-105">
         <a href="#">
-          <img className="rounded-t-lg" src="https://i.ibb.co.com/RQL09mN/6.jpg" alt="" />
+          <img className="rounded-t-lg" src="p-8.jpg" alt="" />
         </a>
         <div className="p-5">
           <a href="#">

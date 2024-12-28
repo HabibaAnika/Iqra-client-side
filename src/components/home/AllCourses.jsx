@@ -6,6 +6,7 @@ function AllCourses() {
     // বেসিক কোরআন
     {
       courseName: "Basic Quran Course",
+      img: "p-1.jpg",
       description: {
         english:
           "Start your journey of understanding the Quran with this foundational course. Learn the Arabic alphabet, proper pronunciation, and basic rules of Quranic recitation in an engaging and interactive environment.",
@@ -29,6 +30,7 @@ function AllCourses() {
     // নাযেরা কোর্স
     {
       courseName: "Advance Quran Course (Nazera)",
+      img: "p-2.jpg",
       description: {
         english:
           "Master the art of reading the Quran fluently and accurately. This course focuses on enhancing tajweed skills and achieving proficiency in Quranic recitation.",
@@ -52,6 +54,7 @@ function AllCourses() {
     // আমপারা কোর্স
     {
       courseName: "30th Part Memorizing Course (Ampara Hifz)",
+      img: "p-3.jpg",
       description: {
         english:
           "Begin your Quran memorization journey with Juz Amma, the 30th part of the Quran. This course is ideal for beginners focusing on short surahs.",
@@ -75,6 +78,7 @@ function AllCourses() {
     // হিফয কোর্স
     {
       courseName: "Memorizing Al Quran (Hifz)",
+      img: "p-4.jpg",
       description: {
         english:
           "Designed for students aiming to become Hafiz, this comprehensive course guides you step-by-step in memorizing the entire Quran with revision and tajweed techniques.",
@@ -98,6 +102,7 @@ function AllCourses() {
     // হিফয রিভাইস
     {
       courseName: "Hifz Revise Course",
+      img: "p-5.jpg",
       description: {
         english:
           "Rediscover and strengthen your memorization of the Holy Quran with our Revise Hifz Course. Specifically designed for those who have completed Hifz but need guidance in recalling forgotten portions, this course focuses on revision techniques.",
@@ -121,6 +126,7 @@ function AllCourses() {
     // ফজিলতের সূরা হিফয
     {
       courseName: "Special Hifz Course",
+      img: "p-6.jpg",
       description: {
         english:
           "Focused on memorizing specific Surahs of virtue (Fazilat Surahs) from the Quran, this course caters to students seeking spiritual and practical excellence in Quranic memorization.",
@@ -144,6 +150,7 @@ function AllCourses() {
     // আলিম কোর্স
     {
       courseName: "Alim Course",
+      img: "p-7.jpg",
       description: {
         english:
           "Gain deep knowledge of Islamic sciences, Hadith, Fiqh, and Quran Tafseer in this advanced course. Ideal for those aspiring to become Islamic scholars.",
@@ -167,6 +174,7 @@ function AllCourses() {
     // ফরজে আইন
     {
       courseName: "Need for Ummah Course",
+      img: "p-8.jpg",
       description: {
         english:
           "Focused on the essentials of Islamic living, this course teaches values, ethics, and foundational knowledge needed to contribute meaningfully to the Ummah.",
@@ -199,7 +207,7 @@ function AllCourses() {
             className="max-w-sm bg-[#dfe4ea] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto h-[676px] transform transition-transform duration-300 hover:scale-105"
           >
             <a href="">
-              <img className="rounded-t-lg" src="https://i.ibb.co.com/RQL09mN/6.jpg" alt={course.courseName} />
+              <img className="rounded-t-lg" src={course.img} alt={course.courseName} />
             </a>
             <div className="p-5">
               <a href="#">

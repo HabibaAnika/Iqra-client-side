@@ -29,10 +29,10 @@ function Hero() {
         modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide><img src="banner-1.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="banner-2.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="banner-3.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide><img src="banner-4.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="banner-4.jpg" alt="banner-1" /></SwiperSlide>
+        <SwiperSlide><img src="banner-3.jpg" alt="banner-2" /></SwiperSlide>
+        <SwiperSlide><img src="banner-1.jpg" alt="banner-3" /></SwiperSlide>
+        <SwiperSlide><img src="banner-2.jpg" alt="banner-4" /></SwiperSlide>
         
       </Swiper>
     </div>

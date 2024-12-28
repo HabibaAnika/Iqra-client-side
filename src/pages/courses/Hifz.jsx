@@ -7,7 +7,7 @@ function Hifz() {
     <div className="mt-40 mb-32">
        <div className="max-w-sm bg-[#dfe4ea] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[676px] mx-auto transform transition-transform duration-300 hover:scale-105">
         <a href="#">
-          <img className="rounded-t-lg h-[376px] w-96" src="https://i.ibb.co.com/rGtPmCr/undefined-image-1.png" alt="" />
+          <img className="rounded-t-lg h-[376px] w-96" src="p-4.jpg" alt="" />
         </a>
         <div className="p-5">
           <a href="#">
